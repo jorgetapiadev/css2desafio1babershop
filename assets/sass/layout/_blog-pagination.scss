@@ -1,0 +1,21 @@
+.blog-pagination{
+    padding-bottom: 80px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: $lightgray;
+
+    .page-item.active .page-link {
+        z-index: 3;
+        color: #fff;
+        background-color: $nickel;
+        border-color: #DDDDDD;
+
+    }
+    .page-link {
+
+        color: $eerieblack;
+        background-color: $white;
+        border: 1px solid #DDDDDD;
+    }
+}

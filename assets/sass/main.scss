@@ -1,0 +1,26 @@
+
+//Vendors
+@import './vendors/bootstrap_4.5.0/css/bootstrap';
+
+// abstracts
+@import './abstracts/varibles';
+@import './abstracts/mixins';
+// Base
+@import './base/reset';
+
+@import './base/typography';
+@import './base/base';
+// Layout
+@import './layout/header'; 
+@import './layout/main-section'; 
+@import './layout/herosection'; 
+@import './layout/blog-aricticle';
+@import './layout/blog-autor';
+@import './layout/blog-pagination';
+@import './layout/footer';
+
+// Components
+@import './components/buttons'
+// Pages
+// Theme
+ 

@@ -1,0 +1,32 @@
+
+.herosection  {
+    height: 100vh;
+    background-image: url("../images/post-image.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+    justify-content: center;
+    align-items: center;
+  }
+  .flecha{
+      position: absolute;
+      bottom: 0;
+      align-items: center;
+      justify-content: center;
+      color: $white;
+      font-size: 50px;
+      text-shadow: 1px 1px 1px black;
+  }
+  .herosection__title{
+            text-align: center;
+            padding-left: 10.5vw;
+            padding-right: 10.5vw;
+            font-size: $x2-large;
+  }
+  .herosection__title_xl{
+            text-align: center;
+            padding-left: 27.5vw;
+            padding-right: 27.5vw;
+            font-size: $xx-large;
+        }

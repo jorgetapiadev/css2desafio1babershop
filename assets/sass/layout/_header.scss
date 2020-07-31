@@ -1,0 +1,19 @@
+.barra-navegacion{
+    background-color: $eerieblack;
+    padding-left:15vw;
+    padding-right:15vw;
+}
+.logo__image{
+    width: 75px;
+    height: 45px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $medium;
+
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: $pinklin;
+    }
